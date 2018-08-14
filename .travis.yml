@@ -4,7 +4,7 @@ node_js:
   - stable
 
 install:
-  - npm install
+  - npm install --loglevel=error
 
 script:
   - npm run cover
