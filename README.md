@@ -21,8 +21,20 @@ A small library that converts string to title case
 ## Tests
 
   `npm test`
+  or
+  `make test`
 
 ## Deploy
+
+### With Make
+
+  `make publish-patch` 
+  or
+  `make publish-minor`
+  or
+  `make publish-major`
+
+### Without Make
 
 ```
 npm version patch -m "Version %s - add sweet badges"
