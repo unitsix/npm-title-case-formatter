@@ -13,7 +13,7 @@ module.exports = function(str) {
 		'else', 'when', 'at', 'from', 'by', 'on', 'off', 'for', 'in', 'out', 'to', 'into', 'with'
 	];
 	//Words or strings to ignore
-	var noChange = ['FAQ', 'FAQs'];
+	var noChange = ['FAQ', 'FAQs', 'ASAP', 'FYI'];
 	//Convert and return the string
 	return str.replace(/\w\S*/g, function(txt, offset) {
 		if (offset !== 0 && noCaps.indexOf(txt.toLowerCase()) != -1) {
