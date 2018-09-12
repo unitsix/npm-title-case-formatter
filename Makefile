@@ -12,6 +12,9 @@ publish-minor:
 publish-major:
 	docker-compose run --rm node make _devdeps _release-major _clean _publish
 
+release:
+	docker-compose run --rm node make _devdeps _release
+
 test:
 	docker-compose run --rm node make _devdeps _testUnitWithCoverage
 
@@ -56,6 +59,9 @@ _release-minor: _test _adduser
 
 _release-major: _test _adduser
 	@$(call release,major)
+
+_release: _test
+	npm run release
 
 _adduser:
 	npm adduser
