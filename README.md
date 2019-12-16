@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/unitsix/npm-title-case-formatter/badge.svg?branch=master)](https://coveralls.io/github/unitsix/npm-title-case-formatter?branch=master) [![Build Status](https://travis-ci.org/unitsix/npm-title-case-formatter.svg?branch=master)](https://travis-ci.org/unitsix/npm-title-case-formatter)
+[![Coverage Status](https://coveralls.io/repos/github/unitsix/npm-title-case-formatter/badge.svg?branch=master)](https://coveralls.io/github/unitsix/npm-title-case-formatter?branch=master) [![Build Status](https://travis-ci.org/unitsix/npm-title-case-formatter.svg?branch=master)](https://travis-ci.org/unitsix/npm-title-case-formatter) [![Downloads](https://img.shields.io/npm/dm/@unitsix/title-formatter)](https://www.npmjs.com/package/@unitsix/title-formatter)
 
 Title Formatter
 =========
